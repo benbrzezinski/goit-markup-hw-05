@@ -462,6 +462,7 @@ a.agency-link {
 }
 
 a.agency-link::after {
+  cursor: auto;
   content: "";
   position: absolute;
   width: 53px;
@@ -477,9 +478,10 @@ a.portfolio-link {
 }
 
 a.portfolio-link::after {
+  cursor: auto;
   content: "";
   position: absolute;
-  width: 53px;
+  width: 58px;
   height: 4px;
   background-color: var(--main-selection-color);
   border-radius: 2px;
@@ -492,11 +494,6 @@ a.portfolio-link::after {
   position: relative;
 }
 
-.main-nav-item a:hover::after {
-  opacity: 1;
-  transition: 1s;
-}
-
 .main-nav-item a[href="./index.html"]:hover::after,
 .main-nav-item a[href="./index.html"]:focus::after {
   content: "";
@@ -507,7 +504,6 @@ a.portfolio-link::after {
   border-radius: 2px;
   left: 0;
   bottom: -1px;
-  opacity: 0;
 }
 
 .main-nav-item a[href="./portfolio.html"]:hover::after,
@@ -532,6 +528,7 @@ a.portfolio-link::after {
   border-radius: 2px;
   left: 0;
   bottom: -1px;
+  cursor: auto;
 }
 
 .main-nav {
