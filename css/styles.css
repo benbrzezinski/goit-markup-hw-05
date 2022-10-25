@@ -494,43 +494,6 @@ a.portfolio-link::after {
   position: relative;
 }
 
-.main-nav-item a[href="./index.html"]:hover::after,
-.main-nav-item a[href="./index.html"]:focus::after {
-  content: "";
-  position: absolute;
-  width: 53px;
-  height: 4px;
-  background-color: var(--main-selection-color);
-  border-radius: 2px;
-  left: 0;
-  bottom: -1px;
-}
-
-.main-nav-item a[href="./portfolio.html"]:hover::after,
-.main-nav-item a[href="./portfolio.html"]:focus::after {
-  content: "";
-  position: absolute;
-  width: 58px;
-  height: 4px;
-  background-color: var(--main-selection-color);
-  border-radius: 2px;
-  left: 0;
-  bottom: -1px;
-}
-
-.main-nav-item a[href="#"]:hover::after,
-.main-nav-item a[href="#"]:focus::after {
-  content: "";
-  position: absolute;
-  width: 51px;
-  height: 4px;
-  background-color: var(--main-selection-color);
-  border-radius: 2px;
-  left: 0;
-  bottom: -1px;
-  cursor: auto;
-}
-
 .main-nav {
   display: flex;
   gap: 46px;
