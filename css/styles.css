@@ -95,32 +95,28 @@ h1 {
   flex-wrap: wrap;
   gap: 30px;
   padding-inline: 15px;
-  margin-top: 0;
-  margin-bottom: 30px;
+  margin: 0;
 }
 
 .our-strengths-item {
   width: 270px;
-  height: 120px;
-  background-color: var(--secondary-background-color);
-  border-radius: 4px;
-  padding: 25px 100px;
 }
 
-.sections-list {
-  padding-inline: 15px;
-  display: flex;
-  gap: 30px;
-  margin: 0;
-}
-
-.sections-list h4 {
+.our-strengths-item h4 {
   margin-bottom: 10px;
   margin-top: 0;
 }
 
-.sections-list p {
+.our-strengths-item p {
   margin: 0;
+}
+
+.icons-our-strengths {
+  margin-bottom: 30px;
+  height: 120px;
+  background-color: var(--secondary-background-color);
+  border-radius: 4px;
+  padding: 25px 100px;
 }
 
 .h2-main-page {
